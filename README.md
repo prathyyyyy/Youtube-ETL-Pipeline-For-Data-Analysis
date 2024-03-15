@@ -1,12 +1,16 @@
 # Youtube ETL Pipeline For Data Analysis Using Spark and AWS
 
+## 1. Introduction:
+
 This project aims to build an ETL (Extract, Transform, Load) pipeline using Python and various AWS tools and services. The pipeline processes a YouTube video dataset, performing data analytics and transformation tasks.
 ![Data-Engineering-Architecture](https://github.com/prathyyyyy/Amazon-Web-Services/assets/97932221/c3943f27-e058-48b9-baee-a3d9a6c6478b)
 
-## 1.Tech Stack
+## 2.Tech Stack:
+
 Languages: SQL, Python 3
 Services: AWS S3, AWS Glue, QuickSight, AWS Lambda, AWS Athena, AWS IAM
-## 2.Key Concepts
+## 3.Key Concepts
+
 ### Data Pipeline
 A data pipeline is established to transfer raw data from various sources to destinations. It includes processes such as data collection, storage, analytics, and transformation to prepare data for querying.
 
@@ -29,7 +33,7 @@ AWS Lambda is a serverless computing service that executes code without managing
 
 AWS Athena is a serverless query service for analyzing data stored in Amazon S3 using SQL queries. It offers on-demand scalability and cost-effectiveness for ad-hoc data analysis tasks.
 
-## 3.Usage
+## 3.Usage:
 1. Data Collection: Upload the YouTube dataset to AWS S3.
 2. Data Processing: Utilize AWS Glue for data preparation and transformation.
 3. Querying Data: Use AWS Athena to analyze the transformed data with SQL queries.
